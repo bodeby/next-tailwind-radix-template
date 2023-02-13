@@ -10,9 +10,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-        Hello World
-        <p className='text-blue-400'>Hello Template</p>
+      <main>
+        <section className='flex flex-col w-full bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'>
+          NextJS template
+        </section>
       </main>
     </>
   )
